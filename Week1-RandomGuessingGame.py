@@ -4,7 +4,7 @@ import random
 #asks for name
 myName = input("Hello! What is your name? ")
 #assigns a random integer from 1 to 10 to variable 'number'
-number = random.randint(1,10)
+number = random.randint(1,8)
 
 #asks user to take a guess, casts it as an integer, stores as guess
 guess = int(input("Take a guess: "))
